@@ -1,0 +1,1 @@
+This scripts objective is to do different tasks related to permissions, users, groups and management. 
