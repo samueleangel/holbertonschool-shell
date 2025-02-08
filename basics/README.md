@@ -1,57 +1,39 @@
-Where am I? – 0-current_working_directory
-Write a script that prints the absolute path name of the current working directory.
+1-listit: Display the contents list of your current directory.
 
-What’s in there? – 1-listit
-Display the contents list of your current directory.
+2-bring_me_home: Script that changes the working directory to the user’s home directory.
 
-There is no place like home – 2-bring_me_home
-Write a script that changes the working directory to the user’s home directory.
+3-listfiles: Display current directory contents in a long format
 
-You are not allowed to use any shell variables.
-The long format – 3-listfiles
-Display current directory contents in a long format.
+4-listmorefiles: Display current directory contents, including hidden files (starting with .). Use the long format.
 
-Hidden files – 4-listmorefiles
-Display current directory contents, including hidden files (starting with .). Use the long format.
-
-I love numbers – 5-listfilesdigitonly
-Display current directory contents:
+5-listfilesdigitonly: Display current directory contents.
 
 Long format
-User and group IDs displayed numerically
-Including hidden files (starting with .)
-Welcome – 6-firstdirectory
-Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+with user and group IDs displayed numerically
+And hidden files (starting with .)
 
-Betty in my first directory – 7-movethatfile
-Move the file betty from /tmp/ to /tmp/my_first_directory/.
+6-firstdirectory: Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 
-Bye bye Betty – 8-firstdelete
-Delete the file betty inside /tmp/my_first_directory/.
+7-movethatfile: Move the file betty from /tmp/ to /tmp/my_first_directory.
 
-Bye bye My first directory – 9-firstdirdeletion
-Delete the directory my_first_directory that is inside the /tmp/ directory.
+8-firstdelete: Delete the file betty.
 
-Back to the future – 10-back
-Write a script that changes the working directory to the previous one.
+9-firstdirdeletion: Delete the directory my_first_directory that is in the /tmp directory.
 
-Lists – 11-lists
-Write a script that lists all files:
+10-back: Script that changes the working directory to the previous one.
 
-Including hidden files (starting with .)
-In the current directory, the parent directory, and the /boot/ directory (in this order)
-In long format
-File type – 12-file_type
-Write a script that prints the type of the file named iamafile, located in /tmp/.
+11-lists: Script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
-We are symbols, and inhabit symbols – 13-symbolic_link
-Create a symbolic link to /bin/ls, named __ls__, in the current working directory.
+12-file_type: Script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 
-Copy HTML files – 14-copy_html
-Create a script that copies all .html files from the current working directory to its parent directory.
+13-symbolic_link: Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
 
-Only copy files that did not exist in the parent directory or are newer than the existing versions.
-Let’s move – 15-lets_move
-Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u/.
+14-copy_html: Script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
-Assume that /tmp/u/ already exists.
+15-lets_move: Script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+16-clean_emacs: Script that deletes all files in the current working directory that end with the character ~.
+
+17-tree: Script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+
+
